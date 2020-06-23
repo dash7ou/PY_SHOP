@@ -6,3 +6,7 @@ from django.http import HttpResponse
 
 def index(request):
     return HttpResponse("Hello from django")
+
+
+def new(request):
+    return HttpResponse("new products")
